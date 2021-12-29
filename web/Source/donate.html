@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style> 
+body {
+  background-color: #fffae5
+}
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  margin: 4px 2px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+} 
+</style>
+ </head>
+<body>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="./script.js"></script>
+<ul class="nav nav-pills justify-content-center">
+	<li class="nav-item">
+	  <a class="nav-link" href="mainpaper.html">HOME</a>
+	</li>
+	<li class="nav-item">
+	  <a class="nav-link " href="protect.html">Protect</a>
+	</li>
+	
+	<li class="nav-item">
+	  <a class="nav-link" href="achievement.html">Achievements</a>
+	</li>
+	<li class="nav-item">
+		<a class="nav-link" href="product.html">Products</a>
+	  </li>
+	<li class="nav-item">
+	  <a class="nav-link active" href="donate">Donate for us</a>
+	</li>
+	<li class="nav-item">
+	  <a class="nav-link" href="Login.html">Login</a>
+	</li>
+  </ul>
+<div class="wrapper">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<header id="header"></header>
+
+<div style="width: 100%;">
+<div class="btn-pref btn-group btn-group-justified btn-group-lg" role="group" aria-label="...">
+<div class="btn-group" role="group">
+<div class="well" style="background: #FAFAFA;">
+<div class="tab-content">
+<div class="tab-pane active" id="tab2">
+<form action="" method='post' name='donate-banking' class="forget-form">
+<input type="hidden" name="UhtDonate" value="aa5fe4b776ee48e3f6783d8878e64e96">
+<br />
+<div class="row">
+<div class="col-md-7 col-sm-7 col-xs-12">
+<div class="form-group form-md-line-input form-md-floating-label has-error">
+<input type="text" class="form-control" maxlength="30" name="donater" value="" id="maxlength_thresholdconfig">
+<label for="form_control_1">TÊN NHÀ TÀI TRỢ</label>
+</div>
+</div>
+<div class="col-md-5 col-sm-5 col-xs-12">
+<div class="form-group form-md-line-input form-md-floating-label has-error">
+<input type="text" id="mask_currency" class="form-control" name="amount" value="">
+<label for="form_control_1">SỐ TIỀN ỦNG HỘ</label>
+</div>
+</div>
+<div class="col-md-12 col-sm-12 col-xs-12">
+<div class="form-group form-md-line-input">
+<textarea class="form-control message" rows="1" maxlength="100" name='message' id="maxlength_textarea"></textarea>
+<div id="container-message"></div>
+<label for="form_control_1">LỜI NHẮN HOẶC YÊU CẦU</label>
+</div>
+</div>
+<div class="col-md-12 col-sm-12 col-xs-12">
+<div class="form-group">
+<label><b>CHỌN PHƯƠNG THỨC THANH TOÁN</b></label>
+</div>
+<ul class="list-content">
+<li>
+<div class="md-radio has-success">
+<input type="radio" id="100" value="ATM_ONLINE" name="option_payment">
+<label for="100">
+<span></span>
+<span class="check"></span>
+<span class="box"></span>
+<b>Thanh toán online bằng <span style="color:#ff5a00;">Thẻ Ngân Hàng Nội Địa</span></b>
+</label>
+</div>
+<div class="boxContent">
+<div class="col-lg-6  col-md-6 col-sm-12 col-xs-12">
+<div class="form-group">
+<label>EMAIL</label>
+<input class="form-control" type="text" id="email" name="email_ATM_ONLINE" placeholder="(không bắt buộc)" value="" maxlength="20" />
+</div>
+</div>
+<div class="col-lg-6  col-md-6 col-sm-12 col-xs-12">
+<div class="form-group">
+<label>SỐ Đ.THOẠI</label>
+<input class="form-control" type="text" id="phone" name="mobile_ATM_ONLINE" placeholder="(không bắt buộc)" class="col-lg-7  col-md-7 col-sm-12 col-xs-12" value="" maxlength="20" />
+</div>
+</div>
+<button  type="button" id="favorites" class="btn btn-danger" href="#tab2" data-toggle="tab">
+DONATE for the green</button> 
+ 
+</body>
+</html>
